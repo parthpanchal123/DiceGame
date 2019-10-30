@@ -333,4 +333,4 @@ void got(char *name)
 		}
     }while(c!=13);
       *(name+i)='\0';
-}
+  }
