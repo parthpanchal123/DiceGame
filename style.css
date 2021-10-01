@@ -1,27 +1,28 @@
-
 * {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    
+    flex-direction: row;
+  
     
 }
 
+.main{
+text-align:center;  
+  
+   display:inline-block;
+  
+}
 
 .heading {
     background-color: black ;
-    text-align: center ;
     color: white;
     margin-bottom: 50px ;
-   
 }
 
 .play_area {
-
-
     margin-left: 40% ;
     padding: 20px ;
-    
 
 
 }
@@ -35,23 +36,12 @@
 
 }
 
-
-.gen_number {
-    
-    display: block;
-}
 .gen_number label {
-
-    margin-left: 5% ;
     width: 100% ;
-
-
 }
 
 #btn_gen {
 
-    margin-top: 10px ;
-    margin-left: 10% ;
     width: 20% ;
     text-align: center;
     background-color: blue;
@@ -71,8 +61,6 @@
 }
 
 #score {
-
-    margin-left: 13% ;
+   display:inline-block;
+   text-align:center;
 }
-
-.dice_image 
