@@ -42,7 +42,7 @@
 }
 .gen_number label {
 
-    margin-left: 5% ;
+    margin-left: 5.5% ;
     width: 100% ;
 
 
@@ -51,7 +51,7 @@
 #btn_gen {
 
     margin-top: 10px ;
-    margin-left: 10% ;
+    margin-left: 12% ;
     width: 20% ;
     text-align: center;
     background-color: blue;
@@ -72,7 +72,9 @@
 
 #score {
 
-    margin-left: 13% ;
+    margin-left: 15%;
 }
 
-.dice_image 
+.dice_image {
+    border-radius: 15px;
+}
