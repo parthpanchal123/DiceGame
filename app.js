@@ -19,3 +19,13 @@ function gen(){
     
     
 }
+
+function restart(){
+    var dom_score = document.getElementById("score");
+    dom_score.textContent = "Total score :  0";
+    score = 0;
+}
+
+
+
+
