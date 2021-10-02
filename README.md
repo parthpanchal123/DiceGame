@@ -4,7 +4,7 @@ This is a simple Dice Game I created with html,css and js .
 
 ## How it looks like
 
-![](https://i.imgur.com/01lkzzf.png)
+![](https://github.com/parthpanchal123/DiceGame/blob/master/preview.png)
 
 ## How to contribute ?
 
