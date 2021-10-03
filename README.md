@@ -2,6 +2,8 @@
 
 This is a simple Dice Game I created with html,css and js .
 
+Live Demo here : [DiceGame](https://parthpanchal123.github.io/DiceGame/)
+
 ## How it looks like
 
 ![](https://github.com/parthpanchal123/DiceGame/blob/master/preview.png)
