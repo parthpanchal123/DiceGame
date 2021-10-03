@@ -6,6 +6,10 @@ This is a simple Dice Game I created with html,css and js .
 
 ![](https://github.com/parthpanchal123/DiceGame/blob/master/preview.png)
 
+## New look
+- Code - [New Look](https://github.com/parthpanchal123/DiceGame/tree/master/new_look)
+![](https://github.com/parthpanchal123/DiceGame/blob/master/new_look/new_look.jpeg)
+
 ## How to contribute ?
 
 - . Step 1 : Fork the repository
