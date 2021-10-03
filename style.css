@@ -63,3 +63,10 @@ body {
 .dice_image {
   border-radius: 15px;
 }
+
+input, button{
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+
