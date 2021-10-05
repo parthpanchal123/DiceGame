@@ -10,15 +10,15 @@ class calc extends absarea
 {
 	void areac(double r)
 	{
-		System.out.println("Area of circle:"+(3.14*r*r));
+		System.out.println("Area of circle: "+(3.14*r*r));
 	}
 	void arear(int l, int b)
 	{
-		System.out.println("Area of rectangle:"+(l*b));
+		System.out.println("Area of rectangle: "+(l*b));
 	}
 	void areas(int s)
 	{
-		System.out.println("Area of square:"+(s*s));
+		System.out.println("Area of square: "+(s*s));
 	}
 }
 class abs
