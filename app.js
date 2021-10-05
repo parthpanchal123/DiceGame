@@ -14,7 +14,7 @@ function gen(){
 
     score = score + num ;
 
-    dom_score.textContent = "Total score : " + (score) ;
+    dom_score.textContent = "Total score:   " + (score) ;
 
     
     
@@ -23,7 +23,7 @@ function gen(){
 function restart(){
     var dom_score = document.getElementById("score");
     dom_score.textContent = "Total score :  0";
-    score = 0;
+    score = 000;
 }
 
 
