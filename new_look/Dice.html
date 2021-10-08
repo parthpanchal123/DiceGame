@@ -7,55 +7,7 @@
     <title>Dice Game</title>
 
     <!-- CSS Code Starts here -->
-    <style>
-        .container{
-            width: 70%;
-            margin:auto;
-            text-align: center;
-        }
-
-        .dice{
-            text-align: center;
-            display: inline-block;
-            margin: 10px;
-        }
-        body{
-            background-color: #000036;
-            margin: 0;
-        }
-        h1{
-            margin: 30px;
-            font-family: "Lobster", cursive;
-            text-shadow: 5px 0 #232931;
-            font-size: 4.5rem;
-            color: #4ecca3;
-            text-align: center;
-        }
-        p{
-            font-size: 2rem;
-            color: #4ecca3;
-            font-family: "Indie FLower",cursive;
-        }
-        img{
-            width: 100%;
-        }
-        .bottom{
-            padding-top: 30px;
-        }
-        .butn{
-            background: #4ecca3;
-            font-family: "Indie FLower", cursive;
-            border-radius: 7px;
-            color: #ffff;
-            font-size: 30px;
-            padding: 16px 25px 16px 25px;
-            text-decoration: none;
-        }
-        .butn:hover{
-            background: #232931;
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="styledice.css">
 </head>
 <!-- Body of the Dice Game -->
 <body>
@@ -83,41 +35,7 @@
         </button>
     </div>
 <!-- JavaScript Code starts here -->  
-    <script>
-        //Player name
-        var player1="Player 1";
-        var player2="Player 2";
-
-        //Function to change the player name
-        function editNames(){
-            player1=prompt("Change Player 1 name");
-            player2=prompt("Change Player 2 name")
-
-            document.querySelector("p.Player1").innerHTML=player1;
-            document.querySelector("p.Player2").innerHTML=player2;
-        }
-
-        //Function to roll the dice
-        function rollTheDice(){
-            setTimeout(function(){
-                var randomNumber1=Math.floor(Math.random()*6)+1;
-                var randomNumber2=Math.floor(Math.random()*6)+1;
-
-                document.querySelector(".img1").setAttribute("src","dice"+randomNumber1+".png");
-                document.querySelector(".img2").setAttribute("src","dice"+randomNumber2+".png");
-
-                if(randomNumber1==randomNumber2){
-                    document.querySelector("h1").innerHTML="It's a Draw!";
-                }
-                else if(randomNumber1<randomNumber2){
-                    document.querySelector("h1").innerHTML=(player2+" Wins!");
-                }
-                else{
-                    document.querySelector("h1").innerHTML=(player1+" Wins!");
-                }
-            }, 2500);
-        }
-    </script>
+    <script src="functiondice.js"></script>
 </body>
 
 </html>
